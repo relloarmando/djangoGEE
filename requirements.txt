@@ -1,0 +1,3 @@
+folium
+google-api-python-client
+earthengine-api
