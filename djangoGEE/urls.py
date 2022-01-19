@@ -15,8 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-import gee
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('gee.urls'))
+    path('', include('gee.urls')),
 ]
